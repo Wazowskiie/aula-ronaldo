@@ -13,6 +13,21 @@ body {
   min-height: 100vh;
 }
 
+
+.logo-icon {
+  background-color: #e6f0ff;
+  color: #007bff;
+  width: 48px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .login-container {
   background-color: #ffffff;
   padding: 48px 44px;
@@ -83,9 +98,9 @@ body {
 }
 
 .forgot-password {
-  color: #007bff;
+color: #007bff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .forgot-password:hover {
